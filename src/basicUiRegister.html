@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fontawesome.com/icons/key?f=classic&s=solid">
+</head>
+<body class="bg-black text-white">
+
+    <div class="w-screen h-screen flex flex-col justify-center items-center gap-y-4">
+        <div class="flex flex-col gap-2">
+
+            <label class="" for=""><i class="fa-solid fa-user text-green-500"></i> User</label>
+            <input class="w-[300px] py-2 rounded-md px-4
+            border-2 border-green-500 focus:border-blue-500
+            text-black focus:outline-none"
+            type="text" placeholder="    Username">
+    </div>
+
+    <div class="relative flex flex-col gap-2">
+            <label 
+            for=""><i class="fa-solid fa-key text-orange-500"></i>
+             Password</label>
+            <input class="w-[300px] py-2 rounded-md px-4
+            border-2 border-orange-500 focus:border-blue-500
+            text-black focus:outline-none"
+            type="password" placeholder="    Password">
+            <i class="absolute top-11 left-4
+             text-black fa-solid fa-lock"></i>
+
+    </div>
+
+    <div class="flex flex-col gap-2">
+            <label for=""><i class="text-yellow-400 fa-solid fa-phone"></i> Phone</label>
+            <input class="w-[300px] py-2 rounded-md px-4
+            border-2 border-yellow-500 focus:border-blue-500
+            text-black focus:outline-none"
+            type="text" placeholder="    Phone">
+    </div>
+
+    <div class="flex flex-col items-start text-black">
+        <label class="text-white">
+            Please Select</label>
+
+        <select class="appearance-auto w-24
+        " name="" id="">
+            <option class="text-center mr-2" disabled selected>
+            LIST</option>
+            <option class="bg-lime-300">TailwindCSS</option>
+            <option class="bg-yellow-300">JavaScript</option>
+            <option class="">PHP</option>
+            <option class="">JAVA</option>
+            <option class="">GO</option>
+
+    
+        </select>
+        
+
+    </div>
+<!-- 0px การขยับในแนวแกน x  
+     4px การขยับในแนวแกน y
+     20px คือขนาดของวามฟุ้งของเงา
+     0px ความเข้มของเงา-->
+    <div>
+        <button class="px-4 py-2 border-2 border-white rounded-lg
+        text-green-600 shadow-[0px_4px_20px_0px_green]">
+            CHECK <i class="fa-solid fa-check"></i>
+        </button>
+    </div>
+
+    <div class="flex mt-10">
+        <button class="px-4 py-2 border-2 border-orange-300 rounded-lg
+        text-orange-600 shadow-[0px_4px_20px_0px_orange]
+        hover:shadow-[0px_4px_10px_0px_orange]">
+            CHECK2 <i class="fa-solid fa-check"></i>
+        </button>
+    </div>
+
+</div>
+    
+</body>
+</html>
